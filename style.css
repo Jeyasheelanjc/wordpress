@@ -140,10 +140,10 @@ li{
     }
     .aboutContainer h2::before{
         width: 30px !important;
-        margin-top: 45px !important;
+       margin-top: 10px !important;
     }
     .aboutContainer h2::after{
         width: 30px !important;
-        margin-top: 45px !important;
+       margin-top: 10px !important;
     }
 }
