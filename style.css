@@ -27,6 +27,7 @@ body{
 li{
     list-style-type: none !important;
 }
+
 .heroContainer{
     height: 100vh;
     justify-content: center !important;
@@ -136,5 +137,23 @@ li{
     }
     .about .content h2{
         font-size: 25px !important;
+    }
+    .aboutContainer h2:before{
+        display: inline-block;
+        content: "";
+        height: 2px;
+        width: 40px;
+        background: var(--green);
+        margin-bottom: 10px;
+        margin-right: 5px;
+    }
+    .aboutContainer h2::after{
+        display: inline-block;
+        content: "";
+        height: 2px;
+        width: 40px;
+        background: var(--black);
+        margin-bottom: 10px;
+        margin-left: 5px;
     }
 }
