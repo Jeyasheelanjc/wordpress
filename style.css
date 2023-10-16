@@ -27,22 +27,6 @@ body{
 li{
     list-style-type: none !important;
 }
-.icon i{
-    font-size: 30px;
-    position: absolute;
-    right: 0;
-    margin: 30px 30px 0px !important;
-    box-shadow: var(--box-shadow);
-    padding: 10px;
-    border-radius: 50px;
-}
-.icon i:hover{
-    box-shadow: var(--box-shadow-inset);
-    color: var(--green) !important;
-}
-header{
-    position: relative;
-}
 .heroContainer{
     height: 100vh;
     justify-content: center !important;
