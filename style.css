@@ -138,22 +138,12 @@ li{
     .about .content h2{
         font-size: 20px !important;
     }
-      .aboutContainer h2:before{
-        display: inline-block;
-        content: "";
-        height: 2px;
+    .aboutContainer h2::before{
         width: 30px !important;
-        background: var(--green);
-        margin-top: 35px!important;
-        margin-right: 5px;
+        margin-top: 45px !important;
     }
     .aboutContainer h2::after{
-        display: inline-block;
-        content: "";
-        height: 2px;
         width: 30px !important;
-        background: var(--black);
-         margin-top: 35px !important;
-        margin-left: 5px;
+        margin-top: 45px !important;
     }
 }
